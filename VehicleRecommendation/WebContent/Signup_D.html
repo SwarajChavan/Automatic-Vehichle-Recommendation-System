@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Signup</title>
+  </head>
+  <body style="background-color:#f2fff6;">
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <ul class="navbar-nav">
+        <li>
+        <a class="navbar-brand" href="HOME_PAGE.html">
+            Home
+        </a>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Buy</button>
+        </li>
+        <li>
+          <a class="btn btn-primary btn-md btn-dark bg-dark" href="login_D.html" style="font-size:20px; width:100px; color:white;">Sell</a>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Rent</button>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:120px; color:white;">About us</button>
+        </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Contact</button>
+          </li>
+          <li class="navbar-nav mr-auto" style="padding-left: 40px;">
+            <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:250px;">
+            <button type="button" class="btn btn-outline-success">Search</button>
+            </form>
+          </li>
+          </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="ml-auto">
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle  btn-dark bg-dark"  style="font-size:20px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Sign up!
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="Sign_upC.html">Consumer</a>
+    <a class="dropdown-item" href="Signup_D.html">Dealer</a>
+    <a class="dropdown-item" href="Signup_G.html">Garage</a>
+    <a class="dropdown-item" href="Signup_Dr.html">Driver</a>
+  </div>
+</div>
+</li>
+<li class="ml-auto">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle  btn-dark bg-dark" style="font-size:20px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Login
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <a class="dropdown-item" href="login_C.html">Consumer</a>
+  <a class="dropdown-item" href="login_D.html">Dealer</a>
+  <a class="dropdown-item" href="login_G.html">Garage</a>
+  <a class="dropdown-item" href="login_Dr.html">Driver</a>
+
+</div>
+</div>
+</li>
+      </ul>
+</nav>
+
+<!-- 2nd SECTION -->
+  <p> </p>
+  <p> </p>
+  <div class="container" style="border-width:2px; border-style:solid;border-color:#4c4a4a;background-color:#d9dce2;">
+    <h1> </h1>
+    <div class="table-wrapper-scroll-y mx-auto" style="display:block; max-height:600px; max-width:1500px; overflow-y:auto; -ms-overflow-style: -ms-autohiding-scrollbar;">
+    <form action="DealerRegistration" method="post">
+      <div class="form-group">
+        <label for="Coname">Office/Shop name (Optional)</label>
+        <input type="text" class="form-control" name="office" id="Coname" placeholder="abc" style="width:400px; border-width:1px; border-style:solid;border-color:#4c4a4a;">
+      </div>
+
+      <div class="form-group">
+        <p>Dealer information</p>
+        <label for="FName">First name</label>
+        <input type="text" class="form-control" name="fname" id="Name" placeholder="First name" style="width:400px; border-width:1px; border-style:solid;border-color:#4c4a4a;"required>
+      </div>
+      <div class="form-group">
+        <label for="LName">Last name</label>
+        <input type="text" class="form-control" name="lname" id="LName" placeholder="Last name" style="width:400px; border-width:1px; border-style:solid;border-color:#4c4a4a;"required>
+      </div>
+      <div class="form-group">
+        <label for="DOB">Date of Birth</label>
+        <input type="date" class="form-control" id="DOB" name="dob" style="width:200px;border-width:1px; border-style:solid;border-color:#4c4a4a;"required>
+      </div>
+      <div class="form-group">
+        <label for="AADHAR no.">AADHAR no.</label>
+        <input type="number" maxlength="12" class="form-control" required="required" id="AADHAR no." name="aadhar" placeholder="123456789101" style="width:200px;border-width:1px; border-style:solid;border-color:#4c4a4a;">
+      </div>
+
+      <div class="form-group form-radio">
+        <p>Gender</p>
+        <div class="radio">
+          <label for="Gender">
+            <input type="radio" name="gender" id="Gender1" style="border-width:1px; border-style:solid;border-color:#4c4a4a;" required>M
+          </label>
+          <label>
+            <input type="radio" name="gender" id="Gender2"style="border-width:1px; border-style:solid;border-color:#4c4a4a;" required>F
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Contact">Contact no.</label>
+        <input type="tel" maxlength="10" name="contact" class="form-control" id="Contact" placeholder="9999999999" style="width:400px;border-width:1px; border-style:solid;border-color:#4c4a4a;"required>
+      </div>
+      <div class="form-group">
+        <label for="Email">E-mail id</label>
+        <input type="email" class="form-control" name="email" id="Email" placeholder="xyz@gmail.com" style="width:400px;border-width:1px; border-style:solid;border-color:#4c4a4a;"required>
+      </div>
+      <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" name="pass" id="Password" placeholder="*******" style="width:400px;border-width:1px; border-style:solid;border-color:#4c4a4a;" required>
+      </div>
+      <div class="form-group">
+        <label for="CPassword">Confirm Password</label>
+        <input type="password" class="form-control" name="cpass" onblur="Checkpass()" id="CPassword" placeholder="*******" style="width:400px;border-width:1px; border-style:solid;border-color:#4c4a4a;" required>
+     <br>
+     <p id="pass" style="color: red;">
+     
+     </p>
+      </div>
+      <button type="submit" class="btn btn-success" style="text-align:center;">Submit</button>
+      <p></p>
+
+    </form>
+</div>
+  </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  function Checkpass() {
+	  var pass=document.getElementById("Password").value;
+	  var cpass=document.getElementById("CPassword").value;
+
+	  if(pass!=cpass){
+		 alert("Password does not match");
+		 document.getElementById("CPassword").value="";
+	  }
+}
+  
+  
+  </script>
+  
+  </body>
+</html>

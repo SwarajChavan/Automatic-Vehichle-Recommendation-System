@@ -1,0 +1,20 @@
+Change the path in RentRecommendation and BuyRecommendation in user part.
+
+When you open the project in eclipse
+go to VehicleTradingAndRecommendation -> Java Resources -> src ->
+utility -> SendMail.java
+Enter the email(gmail) and its password from which you have to send the mail.
+
+Login into the email in a browser. Google search less secure apps. Click on the first link ->https://myaccount.google.com/lesssecureapps?pli=1
+
+Turn on the setting.
+
+Make sure that your antivirus are disabled or uninstalled during sending the mail as it can block it.
+
+If you have any queries mail us.
+
+
+
+
+
+

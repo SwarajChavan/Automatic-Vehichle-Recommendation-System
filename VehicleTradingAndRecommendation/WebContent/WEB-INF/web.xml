@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>VehicleTradingAndRecommendation</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config>
+    <session-timeout>960</session-timeout>
+  </session-config>
+  <servlet>
+    <servlet-name>Dealer Registration</servlet-name>
+    <jsp-file>/Dealer/DealerRegistration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Registration</servlet-name>
+    <url-pattern>/dealer-registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Login</servlet-name>
+    <jsp-file>/Dealer/DealerLogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Login</servlet-name>
+    <url-pattern>/dealer-login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Registration</servlet-name>
+    <jsp-file>/Customer/CustomerRegistration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Registration</servlet-name>
+    <url-pattern>/customer-registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Login</servlet-name>
+    <jsp-file>/Customer/CustomerLogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Login</servlet-name>
+    <url-pattern>/customer-login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Registration</servlet-name>
+    <jsp-file>/Driver/DriverRegistration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Registration</servlet-name>
+    <url-pattern>/driver-registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Login</servlet-name>
+    <jsp-file>/Driver/DriverLogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Login</servlet-name>
+    <url-pattern>/driver-login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Registration</servlet-name>
+    <jsp-file>/Garage/GarageRegistration.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Registration</servlet-name>
+    <url-pattern>/garage-registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Login</servlet-name>
+    <jsp-file>/Garage/GarageLogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Login</servlet-name>
+    <url-pattern>/garage-login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Index</servlet-name>
+    <jsp-file>/Driver/DriverIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Index</servlet-name>
+    <url-pattern>/driver-index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Index</servlet-name>
+    <jsp-file>/Garage/GarageIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Index</servlet-name>
+    <url-pattern>/garage-index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Index</servlet-name>
+    <jsp-file>/Dealer/DealerIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Index</servlet-name>
+    <url-pattern>/dealer-index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Index</servlet-name>
+    <jsp-file>/Customer/CustomerIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Index</servlet-name>
+    <url-pattern>/customer-index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Index</servlet-name>
+    <jsp-file>/Admin/AdminIndex.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Index</servlet-name>
+    <url-pattern>/admin-index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Footer</servlet-name>
+    <jsp-file>/Driver/Footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Footer</servlet-name>
+    <url-pattern>/driver-footer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Footer</servlet-name>
+    <jsp-file>/Garage/Footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Footer</servlet-name>
+    <url-pattern>/garage-footer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Footer</servlet-name>
+    <jsp-file>/Dealer/Footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Footer</servlet-name>
+    <url-pattern>/dealer-footer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Footer</servlet-name>
+    <jsp-file>/Customer/Footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Footer</servlet-name>
+    <url-pattern>/customer-footer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Footer</servlet-name>
+    <jsp-file>/Admin/Footer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Footer</servlet-name>
+    <url-pattern>/admin-footer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Header</servlet-name>
+    <jsp-file>/Driver/Header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Header</servlet-name>
+    <url-pattern>/driver-header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Header</servlet-name>
+    <jsp-file>/Garage/Header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Header</servlet-name>
+    <url-pattern>/garage-header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Header</servlet-name>
+    <jsp-file>/Dealer/Header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Header</servlet-name>
+    <url-pattern>/dealer-header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Header</servlet-name>
+    <jsp-file>/Customer/Header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Header</servlet-name>
+    <url-pattern>/customer-header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Header</servlet-name>
+    <jsp-file>/Admin/Header.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Header</servlet-name>
+    <url-pattern>/admin-header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Add Vehicle</servlet-name>
+    <jsp-file>/Dealer/DealerAddVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Add Vehicle</servlet-name>
+    <url-pattern>/dealer-addvehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Update Profile</servlet-name>
+    <jsp-file>/Dealer/UpdateProfile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Update Profile</servlet-name>
+    <url-pattern>/dealer-updateprofile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer View Vehicle</servlet-name>
+    <jsp-file>/Dealer/ViewVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer View Vehicle</servlet-name>
+    <url-pattern>/dealer-viewvehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer View Bikes</servlet-name>
+    <jsp-file>/Dealer/ViewBikes.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer View Bikes</servlet-name>
+    <url-pattern>/dealer-viewbikes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer View Vehicle Details</servlet-name>
+    <jsp-file>/Dealer/VehicleDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer View Vehicle Details</servlet-name>
+    <url-pattern>/dealer-vehicledetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Update Vehicle</servlet-name>
+    <jsp-file>/Dealer/UpdateVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Update Vehicle</servlet-name>
+    <url-pattern>/dealer-updatevehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage View Cars</servlet-name>
+    <jsp-file>/Garage/ViewCars.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage View Cars</servlet-name>
+    <url-pattern>/garage-viewcars</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage View Bikes</servlet-name>
+    <jsp-file>/Garage/ViewBike.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage View Bikes</servlet-name>
+    <url-pattern>/garage-viewbikes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage View Vehicle Details</servlet-name>
+    <jsp-file>/Garage/VehicleDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage View Vehicle Details</servlet-name>
+    <url-pattern>/garage-vehicledetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Garage Update Profile</servlet-name>
+    <jsp-file>/Garage/UpdateProfile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Garage Update Profile</servlet-name>
+    <url-pattern>/garage-updateprofile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Update Profile</servlet-name>
+    <jsp-file>/Driver/UpdateProfile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Update Profile</servlet-name>
+    <url-pattern>/driver-updateprofile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Driver Schedule</servlet-name>
+    <jsp-file>/Driver/ViewSchedule.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Driver Schedule</servlet-name>
+    <url-pattern>/driver-schedule</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Rent Driver</servlet-name>
+    <jsp-file>/Customer/RentDriver.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Rent Driver</servlet-name>
+    <url-pattern>/customer-rentdriver</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer View Vehicle</servlet-name>
+    <jsp-file>/Customer/ViewVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer View Vehicle</servlet-name>
+    <url-pattern>/customer-viewvehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer View Bikes</servlet-name>
+    <jsp-file>/Customer/ViewBikes.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer View Bikes</servlet-name>
+    <url-pattern>/customer-viewbikes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Vehicle Details</servlet-name>
+    <jsp-file>/Customer/VehicleDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Vehicle Details</servlet-name>
+    <url-pattern>/customer-vehicledetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Reports</servlet-name>
+    <jsp-file>/Admin/ViewReports.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Reports</servlet-name>
+    <url-pattern>/admin-viewreports</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Update Profile</servlet-name>
+    <jsp-file>/Customer/UpdateProfile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Update Profile</servlet-name>
+    <url-pattern>/customer-updateprofile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dealer Check Messages</servlet-name>
+    <jsp-file>/Dealer/CheckMessage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dealer Check Messages</servlet-name>
+    <url-pattern>/dealer-checkmessages</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Check Messages</servlet-name>
+    <jsp-file>/Customer/CheckMessage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Check Messages</servlet-name>
+    <url-pattern>/customer-checkmessages</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Buy Recommendation</servlet-name>
+    <jsp-file>/Customer/BuyRecommendation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Buy Recommendation</servlet-name>
+    <url-pattern>/buyrecommendation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Customer Rent Recommendation</servlet-name>
+    <jsp-file>/Customer/RentRecommendation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer Rent Recommendation</servlet-name>
+    <url-pattern>/rentrecommendation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Vehicle</servlet-name>
+    <jsp-file>/Admin/ViewVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Vehicle</servlet-name>
+    <url-pattern>/admin-viewvehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Bikes</servlet-name>
+    <jsp-file>/Admin/ViewBikes.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Bikes</servlet-name>
+    <url-pattern>/admin-viewbikes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Vehicle Details</servlet-name>
+    <jsp-file>/Admin/VehicleDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Vehicle Details</servlet-name>
+    <url-pattern>/admin-vehicledetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Update Vehicle</servlet-name>
+    <jsp-file>/Admin/UpdateVehicle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Update Vehicle</servlet-name>
+    <url-pattern>/admin-updatevehicle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Customer</servlet-name>
+    <jsp-file>/Admin/ViewCustomer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Customer</servlet-name>
+    <url-pattern>/admin-viewcustomer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Dealer</servlet-name>
+    <jsp-file>/Admin/ViewDealer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Dealer</servlet-name>
+    <url-pattern>/admin-viewdealer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Driver</servlet-name>
+    <jsp-file>/Admin/ViewDriver.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Driver</servlet-name>
+    <url-pattern>/admin-viewdriver</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin View Garage</servlet-name>
+    <jsp-file>/Admin/ViewGarage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin View Garage</servlet-name>
+    <url-pattern>/admin-viewgarage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GarageSearch</servlet-name>
+    <jsp-file>/Garage/GarageSearch.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GarageSearch</servlet-name>
+    <url-pattern>/GarageSearch</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CustomerSearch</servlet-name>
+    <jsp-file>/Customer/CustomerSearch.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerSearch</servlet-name>
+    <url-pattern>/CustomerSearch</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdminSearch</servlet-name>
+    <jsp-file>/Admin/AdminSearch.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminSearch</servlet-name>
+    <url-pattern>/AdminSearch</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Admin Update Dealer</servlet-name>
+    <jsp-file>/Admin/UpdateDealer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin Update Dealer</servlet-name>
+    <url-pattern>/admin-updatedealer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CustomerDriverDetails</servlet-name>
+    <jsp-file>/Customer/CustomerDriverDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerDriverDetails</servlet-name>
+    <url-pattern>/customer-driverdetails</url-pattern>
+  </servlet-mapping>
+</web-app>

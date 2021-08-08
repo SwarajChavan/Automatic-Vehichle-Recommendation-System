@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Vehicle registration</title>
+  </head>
+  <body>
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <ul class="navbar-nav">
+          <li>
+          <a class="navbar-brand" href="HOME_PAGE.html">
+            <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+              Home
+          </a>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Buy</button>
+          </li>
+          <li>
+            <a class="btn btn-primary btn-md btn-dark bg-dark" href="login_D.html" style="font-size:20px; width:100px; color:white;">Sell</a>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Rent</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:120px; color:white;">About us</button>
+          </li>
+            <li>
+              <button type="button" class="btn btn-primary btn-md btn-dark bg-dark" style="font-size:20px; width:100px; color:white;">Contact</button>
+            </li>
+            <li class="navbar-nav mr-auto" style="padding-left: 40px;">
+              <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:250px;">
+              <button type="button" class="btn btn-outline-success">Search</button>
+              </form>
+            </li>
+            </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="ml-auto">
+          <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle  btn-dark bg-dark"  style="font-size:20px"; type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Sign up!
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="Sign_upC.html">Consumer</a>
+      <a class="dropdown-item" href="Signup_G.html">Garage</a>
+      <a class="dropdown-item" href="Signup_Dr.html">Driver</a>
+    </div>
+  </div>
+  </li>
+  <li class="ml-auto">
+    <a class="btn btn-primary btn-md btn-dark bg-dark" role="button" href="HOME_PAGE.html" style="font-size:20px; width:100px;">Logout</a>
+  </li>
+        </ul>
+  </nav>
+
+<!-- Vehicle registration form-->
+
+<p> </p>
+<p> </p>
+<div class="container mx-auto" style="width:400px; border-width:2px; border-style:solid;border-color:#4c4a4a;background-color:#eff8ff;">
+  <h1> </h1>
+  <div class="table-wrapper-scroll-y mx-auto" style="display:block; max-height:600px; max-width:1500px; overflow-y:auto; -ms-overflow-style: -ms-autohiding-scrollbar;">
+  <form action="AuthenticateVehicle" method="post">
+    <div class="form-group">
+      <label for="V_reg"><b style="font-size:20px;">Vehicle registration no.</b></label>
+      <input type="text" name="regno" class="form-control" id="V_reg" placeholder="Vehicle registration no." style="width:300px;border-width:1px; border-style:solid;border-color:#4c4a4a;"required><br>
+      <button class="btn btn-success btn-md" type="submit" style="font-size:20px; width:300px;"><b>Authenticate</b></button>
+    </div>
+  </form>
+</div>
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
